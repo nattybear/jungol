@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-int repeat(int i)
+void repeat(int i)
 {
-  for (int a=1; a<=i; a++) {
+  for (int a = 1; a <= i; a++)
   puts("~!@#$^&*()_+|");
-  }
-  return 0;
+ 
 }
 
 int main()
