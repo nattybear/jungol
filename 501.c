@@ -2,6 +2,6 @@
 
 int main()
 {
-  puts("Fun Programming!");
+  printf("Fun Programming!\n");
   return 0;
 }
