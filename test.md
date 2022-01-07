@@ -1,0 +1,4 @@
+<strike>test</strike>
+
+~~test~~
+

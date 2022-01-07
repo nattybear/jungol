@@ -1,16 +1,10 @@
 #include <stdio.h>
-
-void repeat(int i)
-{
-  for (int a = 1; a <= i; a++)
-  puts("~!@#$^&*()_+|");
- 
-}
+#include "bag.h"
 
 int main()
 {
-  int a=1;
-  scanf("%d" ,&a);
+  int a = 1;
+  scanf("%d", &a);
   repeat(a);
   return 0;
 }
