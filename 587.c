@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int sort(int i)
+int sort (int i)
 {
   if (i == 0)
     return 0;
   puts("recursive");
-  i++;
+  i--;
   sort(i);
 }
 
