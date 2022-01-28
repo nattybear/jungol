@@ -3,7 +3,7 @@
 int sum_of_square(int n)
 {
   if (n < 10)
-    return n;
+    return n * n;
   int remainder = n % 10;
   int quotient = n / 10;
   int square = remainder * remainder;
