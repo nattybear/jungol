@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-struct Student {
+typedef struct Student {
   char name[20];
   char school[20];
   int grade;
-};
+} Student;
 
 int main()
 {
-  struct Student student;
+  Student student;
   scanf("%s %s %i", student.name, student.school, &student.grade);
   printf("Name : %s\n", student.name);
   printf("School : %s\n", student.school);
